@@ -1,0 +1,48 @@
+--------------------------------------------------------
+--  DDL for Procedure DLR_SEND_MAIL
+--------------------------------------------------------
+set define off;
+
+  CREATE OR REPLACE EDITIONABLE PROCEDURE "DW"."DLR_SEND_MAIL" wrapped 
+a000000
+369
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+7
+784 3f1
+rx/TJfgye/3aAd2zIL35PljPCFMwgzuJecfsZy/G+My5pHw11Acv/S5l6VNGHt01uUoUvODI
+L17VCU+rMpvuEi8c21nrPD6MhlP4mpoZ0ZjB04AHQIDKfFYGXuOymjzIRKKmqS4gz4ug3ZBg
+9V7vea3EzCCllPyKkJCvB/7U9ga0An8DUkUpUPIW+6I3ANLz348d3UEAqRpPwdHp4Lp58hBw
+rUXUyNYMMf1ysaRfN8ZWT4NHXCWq5M9xnJ56nr08flQto9fJXvxM4ai9nQBhiYFloxahtAmJ
+yqpR4uxW2m2BG96uwzIh7OLBVVOY/KBqgcAhMUdhrlVV2dmbivgwjUc9VzBIu4sPGXAKEW9H
+FXmQxPTWT7fXC0uTuRUIJ7wx5a/RdpUFESODkG5EkPrRo3oyFcHMF9pVYtS3lSFY1QpY0xst
+yKePJ4kZ/Vz7/AUIhswLrTPc205O7r7vMk+7BpWksSiPshUN/7hSMXbGArRkexRvu4Q5/MHi
+iSrYyAno89RWxacaRQ9OdZM6XcLrwD9wiGlVRt8aj5ue5+JjqFZ3vd6lImsEBCZ2pj/1FefC
+lc8EATW51okJ3HTqoJKPGaJv2F8f3azOGwCHbxsI+lJoJ88wdBWJ92jXa6xx25di3ICxjc7T
+IfuCqPnKNKov/7Hj7/x1bQqsXqeu9ZzNnE+Ul8T2KEzgmdyMS1olNR+XWUnehA7p7vdYJ5AS
+T+iL4icuquvRsJbOcGh08N6d/VESrAR6aYVnfKxcdx3hMBBERwjrLR8pyMCIWZBgaouQBJtb
+dcn4oBeMHGOsieVefOs6bGfYHp2X2/F6riJSxnziH6E0gPq5NAtX9QDsou4nKFxoDcZQWtIL
+RXnka7wLhUMBta5WVcAW5LhvSADbJyLODoR4E97deM+qMgSzfOkvgizTBi/dJGNyAts8uEPZ
+p8vPdRYQXzcuEMYL4saO+YFiRmtaIGLLLYKhn+EH6+dzrlm8ghClKR9ckwRe
+
+/
+
+  GRANT EXECUTE ON "DW"."DLR_SEND_MAIL" TO "DWSTAGE";
+  GRANT EXECUTE ON "DW"."DLR_SEND_MAIL" TO "ODS";
+  GRANT EXECUTE ON "DW"."DLR_SEND_MAIL" TO "ODSSTAGE";
+  GRANT EXECUTE ON "DW"."DLR_SEND_MAIL" TO "SVC_ODI";
+  GRANT EXECUTE ON "DW"."DLR_SEND_MAIL" TO "MSDWPRD";
+  GRANT EXECUTE ON "DW"."DLR_SEND_MAIL" TO "DW_RO";

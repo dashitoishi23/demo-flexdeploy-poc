@@ -1,0 +1,25 @@
+--------------------------------------------------------
+--  DDL for View VW_OPPORTUNITY_F
+--------------------------------------------------------
+
+  CREATE OR REPLACE FORCE EDITIONABLE VIEW "DW"."VW_OPPORTUNITY_F" ("OPPORTUNITY_WID", "CUSTOMER_WID", "PROPERTY_WID", "TOTAL_KW", "AMOUNT", "ANNUALIZED_GAAP_REVENUE", "CREATED_ON_DT", "CHANGED_ON_DT", "ETL_UPDATE_DT", "ETL_INSERT_DT", "ETL_PROC_WID", "DATASOURCE", "OPPORTUNITY_CLOSE_WID", "COMMENCEMENT_DATE") DEFAULT COLLATION "USING_NLS_COMP"  AS 
+  SELECT
+        "OPPORTUNITY_WID",
+        "CUSTOMER_WID",
+        "PROPERTY_WID",
+        "TOTAL_KW",
+        "AMOUNT",
+        "ANNUALIZED_GAAP_REVENUE",
+        "CREATED_ON_DT",
+        "CHANGED_ON_DT",
+        "ETL_UPDATE_DT",
+        "ETL_INSERT_DT",
+        "ETL_PROC_WID",
+        "DATASOURCE",
+        "OPPORTUNITY_CLOSE_WID",
+        "COMMENCEMENT_DATE"
+    FROM
+        w_opportunity_f
+;
+  GRANT READ ON "DW"."VW_OPPORTUNITY_F" TO "ODS";
+  GRANT READ ON "DW"."VW_OPPORTUNITY_F" TO "DW_RO";

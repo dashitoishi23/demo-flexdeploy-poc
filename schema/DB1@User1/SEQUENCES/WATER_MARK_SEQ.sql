@@ -1,0 +1,7 @@
+--------------------------------------------------------
+--  DDL for Sequence WATER_MARK_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "DW"."WATER_MARK_SEQ"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 104928 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+  GRANT SELECT ON "DW"."WATER_MARK_SEQ" TO "DW_RO";
+  GRANT SELECT ON "DW"."WATER_MARK_SEQ" TO "ODS";
